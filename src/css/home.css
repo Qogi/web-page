@@ -1,0 +1,50 @@
+
+
+.jumbotronA {
+    position: relative;
+    background: url(../assets/uppeerJumbo.jpg);
+    height: 30vh;
+    width: auto;
+    background-size: cover;
+    transform: translateY(-40);
+}
+
+.jumbotronB {
+    position: relative;
+    background: url(../assets/uppeerJumbo.jpg);
+    height: 30vh;
+    width: auto;
+    background-size: cover;
+    transform: translateY(-40);
+}
+
+.jumbotronA:hover, .jumbotronB:hover {
+    opacity: 0.6;
+    transition: all 700ms;
+}  
+
+.homeText{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    background-color: white;
+}
+
+/* .jumbotronA > .overlay {
+    position: absolute;
+    margin-top: 17em;
+    padding-top: 2em;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    height: 210px;
+}
+
+.jumbotronA > .inner {
+    position: relative;
+    z-index: 2;
+} */

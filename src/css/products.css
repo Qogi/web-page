@@ -1,0 +1,30 @@
+.grid-3 {
+    display: grid;
+    padding: 100px;
+    grid-gap: 10em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* .grid-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+.youtubeIcon:hover{
+    color: red;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.coursesIcon:hover{
+    color: blue;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.projectsIcon:hover{
+    color: palegreen;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}

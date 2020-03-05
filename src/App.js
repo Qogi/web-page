@@ -1,35 +1,32 @@
-import React from 'react';
-import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Home } from './home';
+import { About } from './about';
+import { Contact } from './contact';
+import { Products } from './products';
+// import { Layout } from './components/Layout';
+import { Navigationbar } from './components/Navigationbar';
+import { PageFooter } from './components/footer';
 
-function App() {
-  return (
-    /* Uses a header that scrolls with the text, rather than staying locked at the top */
-    <div className="demo-big-content">
-        <Layout>
-            <Header title="Qogi" scroll>
-                <Navigation>
-                    <Link to="/About">About</Link>
-                    <Link to="/products">Products</Link>
-                    <Link to="/contact">Contact</Link>
-                </Navigation>
-            </Header>
-            <Drawer title="Qogi">
-                <Navigation>
-                    <Link to="/About">About</Link>
-                    <Link to="/products">Products</Link>
-                    <Link to="/contact">Contact</Link>
-                </Navigation>
-            </Drawer>
-            <Content>
-                <div className="page-content" />
-                <Main/>
-            </Content>
-        </Layout>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return(
+      <React.Fragment>
+        <Navigationbar/>
+        {/* <Layout> */}
+          <Router>
+            <Switch>
+              <Route exact path ="/" component={Home}/>
+              <Route path ="/about" component={About}/>
+              <Route path ="/contact" component={Contact}/>
+              <Route path ="/products" component={Products}/> 
+            </Switch>
+          </Router>
+        {/* </Layout> */}
+        <PageFooter/>
+      </React.Fragment>  
+    )
+  }
 }
 
 export default App;
