@@ -3,7 +3,9 @@ import './css/products.css';
 
 export const Products = () => (
     <div>
-        <h2>Products page</h2>
+        <div>
+            <h1 className="productText text-center">-  Products page  -</h1>
+        </div>
         <section class="services">
             <div class="grid-3 center">
                 <div>

@@ -1,5 +1,43 @@
 .aboutJumbo{
-    height:20em;
+    height:30em;
     background: url(../assets/aboutImg.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 } 
+
+.aboutText{
+    font-size: 8em;
+}
+
+.aboutUs{
+    margin-top: 3em;
+}
+
+.aboutUsText{
+    font-size: 1.5em;
+}
+.teamText{
+    font-size: 1.5em;
+}
+
+.lrgTextDiv{
+    padding:1em;
+}
+.aboutUsLrgText{
+    font-size: 4.5em;
+    position: relative;
+    /* text-align: right; */
+}
+/* .grid-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+} */
+
+.red{
+    color: red;
+}
+.italic{
+    font-style: italic;
+}

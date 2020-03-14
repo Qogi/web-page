@@ -2,6 +2,10 @@ body{
     font-family: "montserrat",sans-serif;
 }
 
+.contactText{
+    font-size: 8em;
+}
+
 .contactJumbo{
     height:20em;
     /* background: url(../assets/aboutImg.jpg);
@@ -14,7 +18,7 @@ body{
     top:50%;
     transform: translateY(-50%);
     text-align: center;
-    margin-top: 10em;
+    margin-top: 18em;
 }
 
 .contactMethod{

@@ -3,7 +3,7 @@ import './css/contact.css';
 
 export const Contact = () => (
     <div>  
-        <div class="jumbotron jumbotron-fluid contactJumbo">
+        {/* <div class="jumbotron jumbotron-fluid contactJumbo">
             <div className="contactJumboField">
                 <h2 className="text-center contactText">
                     Contact us
@@ -12,6 +12,9 @@ export const Contact = () => (
                     Our team is happy to answer to any questions, queries or requests
                 </p>
             </div>
+        </div> */}
+        <div>
+        <h1 className="text-center contactText">-  Contact us  -</h1>
         </div>
         <div className="container contactContainer">
             <div class="grid-3 center contactGrid">

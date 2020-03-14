@@ -1,3 +1,8 @@
+.productText{
+    font-size: 8em;
+}
+
+
 .grid-3 {
     display: grid;
     padding: 100px;
