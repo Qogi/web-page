@@ -29,15 +29,21 @@
     position: relative;
     /* text-align: right; */
 }
-/* .grid-2 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-} */
+
+.whoWeAreText{
+    font-size: 1.5em;
+}
 
 .red{
     color: red;
 }
 .italic{
     font-style: italic;
+}
+
+.ourTeam{
+    padding-top: 1em;
+}
+.ourTeamTitle{
+    padding-top: 1em;
 }

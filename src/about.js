@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/about.css';
+import Image from 'react-bootstrap/Image'
 
 export const About = () => (
     <div>  
@@ -32,6 +33,9 @@ export const About = () => (
                                 Who We Are
                             </h2>
                             <p className="whoWeAreText">
+                                We are a small team of ambitious individuals who are constantly on the hunt to improve that which is around them. We look to identify any problems present in society, find 
+                                possible society and environmentally friendly solutions, and implement these solutions in a swift and efficient manner. 
+
 
                             </p>
                         </div>
@@ -43,26 +47,23 @@ export const About = () => (
                     Qogi solutions is a Dublin based start-up aimed at provding the community with technological and software based solutions. 
                     We were founded in 2019 by two students, Hasan Opiev and Mahmoud AlMahroum. 
                 </p>
-                <h2 className="text-center">Our Team</h2>
-
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top hasanImg" src="./assets/images.jpg" alt="Hasan Opiev image cap"/>
-                        <div class="card-body">
-                            <h5 class="card-title">Hasan Opiev</h5>
-                            <p class="card-text">Trinity College Dublin</p>
-                            <p class="card-text"><small class="text-muted">Founder</small></p>
-                        </div>
+                <h2 className="text-center ourTeamTitle">Our Team</h2>
+                <div class="row">
+                    <div className="col-sm">
+                        <Image src="./assets/images.jpg" fluid />
                     </div>
-                    <div class="card">
-                        <img class="card-img-top mahmoudImg" src="..." alt="Mahmoud Al-Mahroum image cap"/>
-                        <div class="card-body">
-                            <h5 class="card-title">Mahmoud Al-Mahroum</h5>
-                            <p class="card-text">Technological University Dublin</p>
-                            <p class="card-text"><small class="text-muted">Founder</small></p>
-                        </div>
+                    <div className="col-sm">
+                        <h3>Hasan Opiev</h3>
                     </div>
-                </div>
+                </div>    
+                <div class="row">
+                    <div className="col-sm">
+                        <h3>Mahmoud AlMahroum</h3>
+                    </div>
+                    <div className="col-sm">
+                        <Image src="./assets/images.jpg" fluid />
+                    </div>
+                </div> 
             </div>
         </div>
     </div>
