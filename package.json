@@ -10,9 +10,11 @@
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
     "react-icon": "^1.0.0",
     "react-mdl": "^2.0.2",
     "react-router-dom": "^5.1.2",
+    "react-safe": "^1.3.0",
     "react-scripts": "3.3.0"
   },
   "scripts": {

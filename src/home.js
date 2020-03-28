@@ -20,7 +20,7 @@ export const Home = () => (
                 </div>
             </div>
         </Container>
-        <div className="jumbotron jumbotronB"></div>
+        {/* <div className="jumbotron jumbotronB"></div> */}
         {/* <div className="container">
             <br></br><h1 className="display-5 text-center ">What we do</h1>
             <p className="text-center">

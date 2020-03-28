@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/about.css';
-import Image from 'react-bootstrap/Image'
+import HasanImg from './assets/images.jpg'
 
 export const About = () => (
     <div>  
@@ -48,22 +48,22 @@ export const About = () => (
                     We were founded in 2019 by two students, Hasan Opiev and Mahmoud AlMahroum. 
                 </p>
                 <h2 className="text-center ourTeamTitle">Our Team</h2>
-                <div class="row">
-                    <div className="col-sm">
-                        <Image src="./assets/images.jpg" fluid />
+                <div class="row opievRow">
+                    <div className="col-sm opievImg text-center ">
+                        <figure class="snip1091 red"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample6.jpg" alt="sq-sample6"/>
+                            <figcaption>
+                                <h2>Hasan  <span>Opiev</span></h2>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <div className="col-sm">
-                        <h3>Hasan Opiev</h3>
+                    <div className="col-sm mahroumImg text-center">
+                        <figure class="snip1091 navy"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample10.jpg" alt="sq-sample10"/>
+                            <figcaption>
+                                <h2>Mahmoud <span>Mahroum</span></h2>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>    
-                <div class="row">
-                    <div className="col-sm">
-                        <h3>Mahmoud AlMahroum</h3>
-                    </div>
-                    <div className="col-sm">
-                        <Image src="./assets/images.jpg" fluid />
-                    </div>
-                </div> 
             </div>
         </div>
     </div>
