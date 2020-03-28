@@ -1,33 +1,49 @@
-
-
-.jumbotronA {
-    position: relative;
-    background: url(../assets/uppeerJumbo.jpg);
-    height: 30vh;
-    width: auto;
-    background-size: cover;
-    transform: translateY(-40);
+html, body{
+    margin: auto;
+    
 }
-
-.jumbotronB {
-    position: relative;
-    background: url(../assets/uppeerJumbo.jpg);
-    height: 30vh;
-    width: auto;
-    background-size: cover;
-    transform: translateY(-40);
-}
-
-.jumbotronA:hover, .jumbotronB:hover {
-    opacity: 0.6;
-    transition: all 700ms;
-}  
 
 .homeText{
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 1em;
-    padding-bottom: 2em;
-    background-color: white;
+    margin-top: 17em;
+}
+.homeTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8em;
+    text-transform: uppercase;
+}
+.missionText{
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    /* color: black;
+    flex: 1;
+    text-decoration: none;
+    background-image: linear-gradient(to right, yellow 0, yellow 100%);
+    background-position: 0 1.2em;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition:.5s ease-in-out;
+    background-image: linear-gradient(to right, black 0, black 100%); */
+} 
+.missionText:hover {
+    text-decoration: underline;
+    transform: translateY(-5px) scale(1.12);
+    background-size: 100% 100%;
+}
+
+.learnMoreDiv{
+    margin:auto;
+}
+.learnMoreText{
+    margin-top: 3em;
+    position: relative;
+    font-size: 1.5em;
+    transition: .3s ease;
+    transition: .5s ease-in-out;
+    font-family: raleway, arial, sans-serif;
+}
+.learnMoreText:hover{
+    transform: translateY(-5px) scale(1.12);
 }
 

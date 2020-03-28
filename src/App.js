@@ -23,7 +23,7 @@ class App extends Component {
             </Switch>
           </Router>
         {/* </Layout> */}
-        <PageFooter/>
+        {/* <PageFooter/> */}
       </React.Fragment>  
     )
   }
