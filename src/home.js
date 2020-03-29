@@ -14,8 +14,12 @@ export const Home = () => (
                 </div>
                 <div className="d-inline-flex learnMoreDiv ">
                     <p className="d-inline-flex learnMoreText">If you want to learn more,  <a className="clickHereHome" href="./about"> Click here!</a></p>
-                </div>       
+                </div>  
+                
             </div>
+        </div>
+        <div className="homeVectDiv">
+            <figure className="homeVector "><img src="https://vectr.com/hasopi777/welcome.svg" alt="sq-sample6"/></figure>
         </div>
     </React.Fragment>
 )
